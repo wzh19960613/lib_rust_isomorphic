@@ -1,6 +1,6 @@
 [package]
 name = "isomorphic"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Wzh <wzh@uvwee.com>"]
 description = "Getting a reference to an isomorphic type"
