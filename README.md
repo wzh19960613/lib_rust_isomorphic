@@ -47,7 +47,7 @@ assert_eq!(v_next, unsafe { clone_of(&v_mut_enum) });
 
 When the feature `macros` is enabled, you can use the macros `impl_ref`, `impl_mut` and `impl_transmute` to automatically implement the `AsRef`, `AsMut` and `From` traits for your types.
 
-```rust, cfg(feature = "macros")
+```rust, ignore
 // With `macros` feature for `isomorphic`
 
 use isomorphic::{impl_ref, impl_mut, impl_transmute};
